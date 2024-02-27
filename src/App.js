@@ -4,7 +4,6 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import ProductListing from "./components/ProductListing";
 import ProductDetail from "./components/ProductDetail";
-// import CartItems from "./components/CartItems";
 
 const App = () => {
   const [searchQuery, setSearchQuery] = React.useState("");
@@ -44,7 +43,6 @@ const App = () => {
         />
         <Route path="/item/:id" element={<ProductDetail items={data} />} />
       </Routes>
-      {/* <CartItems /> */}
     </Router>
   );
 };
