@@ -1,0 +1,113 @@
+
+.mainContainer{
+  display: flex;
+  justify-content: space-around  ;
+  align-items: center;
+  width: 100%;
+}
+
+.cartContainer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.cart{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 25%;
+}
+
+.actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: auto;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: inherit;
+  height: 250px;
+  width: 160px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 5px 5px 0 grey;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: inherit;
+  gap: 10px;
+}
+
+.actions{
+  display: flex;
+  gap : 10px;
+}
+
+.btn{
+  width: 40px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: grey;
+}
+
+.btn:active{
+  /* background-color: grey; */
+  transition: grey ;
+}
+
+.main img {
+  width: 100px;
+}
+
+.poster{
+  border-radius: 10px 10px 0 0;
+  width: 150px;
+  height: 120px;
+}
+
+.title,
+.description {
+  float: left;
+  font-size: 10px;
+  font-weight: 700;
+  color: rgb(94, 94, 94);
+  margin: 0 10px;
+}
+
+/* Movie Rating */
+.rating {
+  float: right;
+  font-size: 10px;
+  font-weight: 500;
+  color: rgb(177, 177, 177);
+  margin: 0 10px;
+}
